@@ -34,3 +34,5 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rubocop', '~> 0.59.2'
+gem 'dotenv-rails', :groups => [:development, :test]
+gem 'twilio-ruby', '~> 5.14', '>= 5.14.1'
